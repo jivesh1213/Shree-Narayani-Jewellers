@@ -1,0 +1,56 @@
+.button-placement {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center; 
+}
+.button-placement a{
+    border-radius: 0px;
+    outline: 0;
+    margin-right: 0.2%;
+    margin-left: 0.2%;
+}
+
+.carousel-item .product-block {
+  background-color: white;
+  border: 1px solid #D5D5D5;
+  text-align: left;
+}
+
+  .carousel-item .product-block h5 {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .carousel-item .product-block a {
+    margin-left: 11%; 
+    margin-bottom: 10%;
+    border-radius: 0px;
+  }
+  .carousel-item .product-block .someDetails{
+    margin-left: 5%; 
+    margin-bottom: 3%;
+  }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .carousel-item .product-block {
+    margin: 0 15px; 
+    }
+
+  .carousel-title {
+    font-size: 18px;
+    margin-top: 20px; 
+    } 
+}
+
+.headingCategories{
+    outline: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2%;
+    
+}
+
+/*# sourceMappingURL=main.css.map */

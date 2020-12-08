@@ -1,0 +1,305 @@
+.navigation-bar li{
+    margin-left: 22%;
+    margin-top: 4%; 
+    font-size: 15px;
+    outline: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;		
+}
+.dropdown-item{
+    font-size: 13px;
+    outline: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;	
+}
+.nav-link,.dropbtn{
+    background: linear-gradient(to right top, #1d9484, #1aa196, #15aea8, #12bcbb, #10c9cf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-link:hover,.dropbtn:hover{
+    background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logInSwitch{
+    width: 150%;
+    max-width: 115px;
+    border-radius: 0px;
+}
+.container{ 
+    max-width: 83%;
+    margin: auto;
+}
+.navbar{
+   // border-style: none none solid none;
+    max-height: 90px;
+    height: 100%;
+    z-index: 9;
+}
+.problem1{
+margin-right: -40%;
+}
+.navbar img{
+    width: 25%;
+ }
+ 
+#loginModal{
+    text-align: center;
+    font-size: small;
+    alignment-adjust: central;
+ }
+#logInButton{
+    margin-top: 8%;
+    margin-left: 27.5%;
+    border-radius: 0px;
+    width: 45%;
+    margin-bottom: 1%;
+}
+#signUpButton{
+    margin-top: 2%; 
+    border-radius: 0px;
+    margin-left: 27.5%;
+    width: 45%;
+    margin-bottom: 1%;
+    background-color: #ffb833;
+    
+}
+#signUpButton:hover{
+    background-color: #ebaa13;
+    
+}
+.shownAbsolute{
+    display: inline-block;
+}
+.customInput{
+    border-radius: 6px 6px 6px 6px;
+    border-width: 0px 0px 1.1px 0px;
+    border-style: solid;
+    border-color: rgba(207, 207, 207, 1);
+    font-size: 13px;
+    margin-top: 4%;
+}
+input.customInput:focus {
+    outline-width: 0;
+    border-width: 0px 0px 2px 0px;
+    border-color: #ffb833;
+    
+}
+textarea.customInput:focus {
+    outline-width: 0;
+    border-width: 0px 0px 2px 0px;
+    border-color: #ffb833;
+    
+}
+
+.otp{
+    font-size: 12px;
+    display: none
+}
+.otpButton{
+    margin-left: 5%; 
+    width: 35%;
+    margin-top: 3%;
+    border-radius: 0px;
+
+}
+#sendButton{
+    margin-top: 4%;
+    border-radius: 0px;
+    width: 45%;
+    margin-bottom: 1%;
+}
+#cardCategories{
+    margin-top: 2%;
+}
+
+.modal-content{
+    border-radius: 0px;
+    font-size: small;
+    text-align: center;
+}
+#MyNav{
+    background-color: white;
+    padding-bottom: 1%; 
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+.example {
+        position: relative;
+        padding: 0;
+        width: 325px;
+        margin: 3%;
+        cursor: pointer;
+         box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.52);
+        display: inline-block;
+        overflow: hidden;
+      }
+      .content {
+        opacity: 0;
+        font-size: 15px;
+        font-weight: 600;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #343a40;
+        text-align: left !important;
+        background-color: rgba(255,255,255, 1);
+        width: 320px;
+        padding-left: 10px;
+        height: 300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+        text-align: center;
+      }
+      .example .content:hover {
+        opacity: 1;
+      }
+      .example .content .text {
+        height: 0;
+        opacity: 1;
+        transition-delay: 0s;
+        transition-duration: 0.4s;
+      }
+      .example .content:hover .text {
+        opacity: 1 !important;
+        transform: translateY(40px);
+        -webkit-transform: translateY(40px);
+      }
+      .btn-danger{
+          background-color: #d80606 !important;
+          border-color: #d80606;
+      }
+      .btn-outline-danger{
+          border-color: #1aa196;
+          font-weight: 450;
+          color: #1aa196;
+      }
+      .btn-outline-danger:hover{
+           border-color: #1aa196;
+          background: linear-gradient(to right top, #1d9484, #1aa196, #15aea8, #12bcbb, #10c9cf);
+          color: #fff !important;
+      }
+      .btn-dark{
+           background: linear-gradient(to right top, #1d9484, #1aa196, #15aea8, #12bcbb, #10c9cf);
+          border-color: #1aa196;
+      }
+      .btn-dark:hover{
+          border-color: #1aa196;
+          color: #1aa196;
+          background: white;
+      }
+      
+      .form-control:focus,.btn:focus{
+          outline: 0;
+          box-shadow: 0 0 0 0 !important;
+      }
+      
+    
+       #clicks{
+		margin-left: 35%;
+		text-decoration: none;
+	}
+	#clicks a{
+		font-size: 17px;
+		color: #555;
+		text-decoration: none;
+	}
+	#clicks a:hover{
+		cursor: pointer;
+	}
+        #blogo{
+		width: 100%;
+                display:inline;
+        }
+        .leftAlign {
+            alignment-adjust: central;
+            text-align: left;
+            line-height: 200%;
+        }
+        .leftAlign h5{
+             display: inline;
+            font-weight: 600;
+            color: black;
+        }
+        .leftAlign a{
+            font-size: 17px;
+            margin-top: 1%;
+		color: #555;
+		text-decoration: none;
+        }
+        .leftAlign a:hover{
+            cursor: pointer;
+        }
+        h2{
+            background: -webkit-linear-gradient(left, #0033cc, #00ff99);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+        }
+        .product-block:hover{
+            
+            box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.52);
+        }
+        
+        .placing{
+            margin-bottom: 10%;
+            line-height: 0.7;
+            padding: 0px;
+            border-radius: 0px;
+        }
+        .placing img{
+            border-radius: 0px;
+        }
+        .placing:hover{
+            box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.52);
+        }
+        .modalImage{
+            width: 150%;
+            margin-left: -45%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.52);
+        }
+        
+        
+        #back2Top {
+		line-height: 40px;
+		overflow: hidden;
+		z-index: 999;
+		display: none;
+		border-radius:40px;
+		cursor: pointer;
+		transform: scale(1.5);
+		position: fixed;
+		bottom: 20px;
+		margin-right:20px;
+		right:0;
+                background: #1aa196;
+		color: #000;
+		text-align: center;
+		font-size: 25px;
+		text-decoration: none;
+	}
+	#back2Top:hover {
+            background-color: #DDD;
+            color: #333;
+	}
+        #filter{
+        border-color: #fa2e02;
+            }
+
+.message{
+    color: #fa2e02;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 4px;
+    margin-left: 16px;
+    text-align: left;
+}
